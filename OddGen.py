@@ -10,7 +10,7 @@ awayTeam = input("Enter the name of second football team: ")
 url = f"https://api-football-v1.p.rapidapi.com/fixtures/h2h?homeTeam={homeTeam}&awayTeam={awayTeam}"
 
 headers = {
-    "X-RapidAPI-Key": "5c14e01ec4msh588693aeee4a235p1cd133jsn7d2c27f4dedb",
+    "X-RapidAPI-Key": "####YOUR_API_KEY######",
     "X-RapidAPI-Host": "api-football-v1.p.rapidapi.com"
 }
 
